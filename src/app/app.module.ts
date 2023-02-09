@@ -4,17 +4,6 @@ import { AppComponent } from './app.component';
 import { MediaItemComponent } from './media-item.component';
 
 @NgModule({
-<<<<<<< Updated upstream
-    imports: [
-        BrowserModule
-    ],
-    declarations: [
-        AppComponent
-    ],
-    bootstrap: [
-        AppComponent
-    ]
-=======
   imports: [
     BrowserModule
   ],
@@ -25,6 +14,6 @@ import { MediaItemComponent } from './media-item.component';
   bootstrap: [
     AppComponent
   ]
->>>>>>> Stashed changes
 })
 export class AppModule {}
+

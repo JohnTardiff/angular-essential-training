@@ -1,13 +1,10 @@
-import { Component } from "@angular/core";
+import { Component } from '@angular/core';
 
 @Component({
-    selector: 'mw-app',
-    templateUrl: './app.component.html',
-    styleUrls: ['./app.component.css']
+  selector: 'mw-app',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
 })
-<<<<<<< Updated upstream
-export class AppComponent {}
-=======
 export class AppComponent {
   firstMediaItem = {
     id: 1,
@@ -20,7 +17,6 @@ export class AppComponent {
   };
 
   onMediaItemDelete(mediaItem) {
-
+    
   }
 }
->>>>>>> Stashed changes
